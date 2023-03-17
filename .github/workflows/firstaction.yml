@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: print greetings
-        run: ehco "hello"
+        run: echo "hello"
       - name: printing bye
         run: echo "Bye"
       
