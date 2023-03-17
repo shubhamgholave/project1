@@ -1,0 +1,13 @@
+name: first worflow
+on: Workflow-dispatch
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print greetings
+        run: ehco "hello"
+      - name: printing bye
+        run: echo "Bye"
+      
+  
+        
